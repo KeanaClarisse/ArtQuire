@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArtQuire")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bed78061d649175c1c52e0d938b790d1a50a5a8f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c21fbe6157bf53ab3db4f998bc7faf0065ac17ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArtQuire")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArtQuire")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
