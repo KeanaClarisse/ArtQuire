@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ArtQuire.props" />
+</Project>
