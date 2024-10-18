@@ -1,4 +1,6 @@
+using Manager.Services;
 using Microsoft.AspNetCore.Mvc;
+using static Model.ClientModel;
 
 namespace ArtQuire.Controllers
 {
@@ -14,15 +16,15 @@ namespace ArtQuire.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Client>> GetStudents()
+        public ActionResult<IEnumerable<Client>> GetClient()
         {
-            return Ok(_studentService.GetAllStudents());
+            return Ok(_clientService.GetAllClients());
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Student> GetStudent(int id)
+        public ActionResult<Client> GetStudent(int id)
         {
-            var student = _studentService.GetStudentById(id);
+            var student = _clientService.GetClientById(id);
             if (student == null)
             {
                 return NotFound();
@@ -31,35 +33,35 @@ namespace ArtQuire.Controllers
         }
 
         [HttpPost]
-        public ActionResult AddStudent(Student student)
+        public ActionResult AddClient(Client client)
         {
-            _studentService.AddStudent(student);
-            return CreatedAtAction(nameof(GetStudent), new { id = student.Id }, student);
+            _clientService.AddClient(client);
+            return CreatedAtAction(nameof(GetStudent), new { id = client.Id }, client);
         }
 
         [HttpPut("{id}")]
-        public IActionResult UpdateStudent(int id, Student student)
+        public IActionResult UpdateClient(int id, Client client)
         {
-            var existingStudent = _studentService.GetStudentById(id);
-            if (existingStudent == null)
+            var existingClient = _clientService.GetClientById(id);
+            if (existingClient == null)
             {
                 return NotFound();
             }
 
-            _studentService.UpdateStudent(id, student);
+            _clientService.UpdateClient(id, client);
             return NoContent();
         }
 
         [HttpDelete("{id}")]
-        public IActionResult DeleteStudent(int id)
+        public IActionResult DeleteClient(int id)
         {
-            var student = _studentService.GetStudentById(id);
-            if (student == null)
+            var client = _clientService.GetClientById(id);
+            if (client == null)
             {
                 return NotFound();
             }
 
-            _studentService.DeleteStudent(id);
+            _clientService.DeleteClient(id);
             return NoContent();
         }
     }

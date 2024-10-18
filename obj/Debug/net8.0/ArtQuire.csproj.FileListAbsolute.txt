@@ -1,0 +1,7 @@
+C:\Users\Keana Clarisse\source\repos\ArtQuire\ArtQuire\obj\Debug\net8.0\ArtQuire.csproj.AssemblyReference.cache
+C:\Users\Keana Clarisse\source\repos\ArtQuire\ArtQuire\obj\Debug\net8.0\ArtQuire.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Keana Clarisse\source\repos\ArtQuire\ArtQuire\obj\Debug\net8.0\ArtQuire.AssemblyInfoInputs.cache
+C:\Users\Keana Clarisse\source\repos\ArtQuire\ArtQuire\obj\Debug\net8.0\ArtQuire.AssemblyInfo.cs
+C:\Users\Keana Clarisse\source\repos\ArtQuire\ArtQuire\obj\Debug\net8.0\ArtQuire.csproj.CoreCompileInputs.cache
+C:\Users\Keana Clarisse\source\repos\ArtQuire\ArtQuire\obj\Debug\net8.0\ArtQuire.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Keana Clarisse\source\repos\ArtQuire\ArtQuire\obj\Debug\net8.0\ArtQuire.sourcelink.json
